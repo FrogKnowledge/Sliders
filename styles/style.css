@@ -86,7 +86,6 @@ display: none;
     color:grey;
 
 }
-
 .bottomText>div{
     animation: textUp 1s forwards linear 4.5s;
     transform: translateY(-70px);
