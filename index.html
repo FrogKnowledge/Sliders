@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="js/core.js" defer></script>
+    
     <link rel="stylesheet" href="styles/style.css">
     <title>First slide</title>
 </head>
+
 <body>
     <div class="firstSlide">
-            <div class="closedStand">
+        <div class="closedStand">
+        </div>
+
+        <div class="mainText">
+            <div class="stand">
+                лучший</div>
+            <span class="superStand">профессиональный</span>
+        </div>
+
+        <div class="bottomText">
+            <div>штатив с подсветкой!</div>
+        </div>
+        <div class="openedStand"></div>
+            <div class="secondSlide">
+                <div class="largest">
+                    <svg><line x1="0" y1="0" x2="230" y2="0" stroke="#FF7802" stroke-width="7" >
+                            <animate attributeName="x1"
+                            from="0" to="178"dur=".6s" repeatCount="1" begin="5.9s"fill="freeze"/>
+                            <animate  attributeName="x2"
+                            from="230" to="392"dur=".6s" repeatCount="1" begin="5.9s"fill="freeze"/>  
+
+                            <animate  attributeName="x1"
+                            from="178" to="198"dur=".3s" repeatCount="1" begin="6.5s"fill="freeze"/>  
+
+                            <animate  attributeName="x1"
+                            from="198" to="178"dur=".3s" repeatCount="1" begin="8.7s"fill="freeze"/>
+
+
+                            <animate attributeName="x1"
+                            from="178" to="0"dur=".4s" repeatCount="1" begin="9s"fill="freeze"/>
+                            <animate  attributeName="x2"
+                            from="392" to="230"dur=".4s" repeatCount="1" begin="9s"fill="freeze"/> 
+                            
+                            <animate  attributeName="x2"
+                            from="230" to="0"dur=".8s" repeatCount="1" begin="9.4s"fill="freeze"/> 
+                        
+                           
+                        </line>
+                        <line x1="392" y1="0" x2="392" y2="0" stroke="#FF7802" stroke-width="4" >
+                                <animate attributeName="y1"
+                                from="0" to="20"dur=".3s" repeatCount="1" begin="6.5s"fill="freeze"/>
+
+                                <animate attributeName="y1"
+                                from="20" to="0"dur=".3s" repeatCount="1" begin="8.7s"fill="freeze"/>
+                                 
+                            </line>
+                            <line x1="0" y1="0" x2="0" y2="0" stroke="#FF7802" stroke-width="7" >
+                                    <animate attributeName="y1"
+                                    from="0" to="52"dur=".4s" repeatCount="1" begin="9.4s"fill="freeze"/>
+                                    
+                                    <animate attributeName="y2"
+                                    from="0" to="52"dur=".5s" repeatCount="1" begin="10.2s"fill="freeze"/>
+                                                                         
+                                </line>
+                    </svg>
+                    <span>самый</span><span>высокий</span>
+                    
+                </div>
+                <div class="openedStandOp"></div>
             </div>
-
-    <div class="mainText">
-        <div class="stand">
-        лучший</div>
-        <span class="superStand">профессиональный</span>
+    
     </div>
-
-    <div class="bottomText">
-        <div>штатив с подсветкой!</div>
-    </div>
-    <div class="openedStand"></div>
-    </div>
+    <script src="js/core.js" defer ></script>
 </body>
+
 </html>
