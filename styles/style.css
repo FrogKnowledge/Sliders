@@ -141,7 +141,7 @@ visibility: hidden;
 .largest{
     position: absolute;
     top:40%;
-    left:15%;
+    left:25%;
     color:#FF7802;
     font-size: 40px;
     height: 60px;
@@ -166,8 +166,8 @@ visibility: hidden;
         top:9%
     }
     100%{
-        top:40%;
-        left:74%;
+        top:65%;
+        left:75%;
         transform: scale(2.5);
         
     }
